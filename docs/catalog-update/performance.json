@@ -1,0 +1,153 @@
+{
+  "measuredAt": "2026-10-16T20:59:59.350Z",
+  "method": {
+    "browser": "154.0.8037.57",
+    "viewport": "390x844",
+    "cpuSlowdown": 4,
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 200000,
+    "uploadBytesPerSecond": 93750,
+    "cache": "disabled; fresh context per run",
+    "textCompression": "gzip via local proxy",
+    "runsPerRoute": 3,
+    "environment": "local production build, synthetic Chromium, mobile viewport",
+    "limits": "Not field data or real phone hardware. Event Timing samples from scripted clicks are not a validated INP. CLS is the sum of observed shifts before interaction, not a long-session field value. No active 3D asset exists."
+  },
+  "runs": [
+    {
+      "route": "/",
+      "run": 1,
+      "lcpMs": 3184,
+      "lcpElement": "hero-scooter",
+      "cls": 0,
+      "resourceBytes": 296274,
+      "eventTimingSamplesMs": [
+        48,
+        136,
+        136,
+        168,
+        168,
+        168
+      ],
+      "maxSampledInteractionMs": 168,
+      "errors": []
+    },
+    {
+      "route": "/",
+      "run": 2,
+      "lcpMs": 2908,
+      "lcpElement": "hero-scooter",
+      "cls": 0.0001,
+      "resourceBytes": 296274,
+      "eventTimingSamplesMs": [
+        80,
+        80,
+        80,
+        40,
+        40,
+        40
+      ],
+      "maxSampledInteractionMs": 80,
+      "errors": []
+    },
+    {
+      "route": "/",
+      "run": 3,
+      "lcpMs": 2644,
+      "lcpElement": "hero-scooter",
+      "cls": 0,
+      "resourceBytes": 296274,
+      "eventTimingSamplesMs": [
+        80,
+        80,
+        80,
+        56,
+        56,
+        56
+      ],
+      "maxSampledInteractionMs": 80,
+      "errors": []
+    },
+    {
+      "route": "/catalogo/n9e",
+      "run": 1,
+      "lcpMs": 3408,
+      "lcpElement": "studio-media studio-image",
+      "cls": 0,
+      "resourceBytes": 457108,
+      "eventTimingSamplesMs": [
+        72,
+        72,
+        72,
+        40,
+        40,
+        40,
+        32,
+        32,
+        32,
+        64,
+        64,
+        64,
+        40,
+        40,
+        40
+      ],
+      "maxSampledInteractionMs": 72,
+      "errors": []
+    },
+    {
+      "route": "/catalogo/n9e",
+      "run": 2,
+      "lcpMs": 3352,
+      "lcpElement": "studio-media studio-image",
+      "cls": 0,
+      "resourceBytes": 457108,
+      "eventTimingSamplesMs": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        48,
+        48,
+        48,
+        56,
+        56,
+        56,
+        40,
+        40,
+        40
+      ],
+      "maxSampledInteractionMs": 56,
+      "errors": []
+    },
+    {
+      "route": "/catalogo/n9e",
+      "run": 3,
+      "lcpMs": 3420,
+      "lcpElement": "studio-media studio-image",
+      "cls": 0.0001,
+      "resourceBytes": 457108,
+      "eventTimingSamplesMs": [
+        48,
+        48,
+        48,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        56,
+        56,
+        56,
+        32,
+        32,
+        32
+      ],
+      "maxSampledInteractionMs": 56,
+      "errors": []
+    }
+  ]
+}

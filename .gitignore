@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.agents/
+.taste-skill/
+.playwright-cli/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.npmrc

@@ -1,0 +1,40 @@
+TAL — CATÁLOGO PARA REVISÃO
+
+Este ZIP inclui o código e a prévia já compilada na pasta dist.
+Extraia TODOS os arquivos antes de abrir o site.
+
+NO WINDOWS
+1. Se necessário, instale o Node.js 24: https://nodejs.org
+2. Abra INICIAR-PREVIA.bat com dois cliques.
+3. Mantenha a janela aberta e acesse http://127.0.0.1:4180
+4. Abra o menu Catálogo ou http://127.0.0.1:4180/catalogo
+
+NO MAC/LINUX
+Com Node.js instalado, abra um terminal nesta pasta e execute:
+node preview-local.mjs
+Depois acesse http://127.0.0.1:4180
+
+Não abra index.html com dois cliques: o site usa módulos e rotas.
+Se a conexão for recusada, confirme que o iniciador continua aberto.
+Se a porta 4180 estiver ocupada, feche a outra prévia e tente novamente.
+
+PARA EDITAR O CÓDIGO
+npm ci
+npm run dev
+Abra http://localhost:5173
+Depois de editar, execute npm run build para renovar a pasta dist.
+
+O QUE MUDOU
+Catálogo N9e, A8 e N9; páginas individuais; galeria, zoom e ampliação;
+comparação; preferências salvas; links e consultas para copiar/baixar;
+endereço confirmado da TAL em Pinhais e link de mapa.
+A home mantém a apresentação e as animações anteriores.
+
+AS IMAGENS SÃO ESTUDOS VISUAIS APROXIMADOS.
+Não representam comprovação das motos reais, cores disponíveis ou peças.
+Não há modelo 3D ou rotação 360 nesta versão. Fabricante, versão, fotos,
+ficha técnica, contato e horários serão confirmados com a loja.
+
+Esta atualização é para revisão. Não foi enviada ao GitHub nem publicada.
+Não substitua a versão no ar antes de revisar o resultado.
+Detalhes técnicos, capturas e testes: docs/catalog-update/implementation.md
